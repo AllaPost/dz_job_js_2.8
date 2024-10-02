@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пример документа</title>
+    <style>
+      .paragraph {
+        color: darkgreen;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Заголовок</h1>
+    <p class="paragraph">
+      Это абзац текста, который описывает содержимое страницы.
+    </p>
+    <ul class="ul_list">
+      <li class="ui__item">Первый элемент списка</li>
+      <li class="ui__item">Второй элемент списка</li>
+      <li class="ui__item">Третий элемент списка</li>
+    </ul>
+    <img src="https://via.placeholder.com/150" alt="Пример изображения" />
+    <br />
+    <a href="https://initial-url.com">Начальная ссылка</a>
+    <br /><br />
+    <button class="btn__addListItem">Добавить элемент списка</button>
+    <button class="btn__removeLastListItem">
+      Удалить последний элемент списка
+    </button>
+    <button class="btn__changeParagraphColor">Изменить цвет абзаца</button>
+    <button class="btn__toggleParagraph">Скрыть/Показать абзац</button>
+    <button class="btn__logParagraphDimensions">Вывести размеры абзаца</button>
+
+    <h2>Форма обратной связи</h2>
+    <form class="form">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" placeholder="Введите ваше имя" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Введите ваш email" />
+      <br />
+      <br />
+      <button type="submit">Отправить</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
