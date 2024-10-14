@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     modifyDocument();
 
-    // Функция для изменения заголовка, списка, изображения и ссылки
+    // Функция для изменений заголовка, списка, изображения и ссылки
     function modifyDocument() {
       document.querySelector("h1").innerText = "Измененный заголовок";
 
